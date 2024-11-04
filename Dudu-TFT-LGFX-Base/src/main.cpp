@@ -20,7 +20,6 @@ void setup() {
   pinMode(PIN_LED1, OUTPUT);
   pinMode(PIN_LED2, OUTPUT);
   tft.init();
-  tft.setBrightness(10);
   tft.fillScreen(TFT_BLACK);
 
   tft.setTextFont(4);
